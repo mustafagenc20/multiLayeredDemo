@@ -5,10 +5,10 @@ import be.intecbrussel.entities.concretes.Product;
 
 import java.util.List;
 
-public class HibernateProductDao implements ProductDao {
+public class AbcProductDao implements ProductDao {
     @Override
     public void add(Product product) {
-        System.out.println("Product added with Hibernate " + product.getName());
+        System.out.println("Product added with Abc " + product.getName());
     }
 
     @Override
